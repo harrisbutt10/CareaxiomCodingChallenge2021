@@ -37,7 +37,9 @@ Install RSVP module
     npm install rsvp
 
 
-  
+ ## Start Server
+To start the server:
+  node src/app.js
 
 
 
