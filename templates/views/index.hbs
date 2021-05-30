@@ -1,0 +1,27 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+ <h1> Following are the titles of given websites: </h1>
+
+{{#if showTitile}}
+<ul>
+    
+    {{#each showTitile}}
+        <li>{{this.url}}- " {{this.title}}"</li>
+    {{/each}}
+</ul>
+{{else}}
+<ul>
+  <li>
+    {{url}} - "{{title}}"
+  </li>
+</ul>
+{{/if}}
+</body>
+</html>
