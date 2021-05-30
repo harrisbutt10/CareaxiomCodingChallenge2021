@@ -38,7 +38,7 @@ Install RSVP module
 
 
  ## Start Server
-To start the server:
+To start the server :
   node src/app.js
 
 
